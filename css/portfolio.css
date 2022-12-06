@@ -1,0 +1,499 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url(../image/tree.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    background-color: rgb(77, 97, 249);
+    box-sizing: border-box;
+    font-family:Lato,Helvetica,Arial,sans-serif;
+    
+}
+@media only screen and (max-width:1000px) {
+    body{
+        background-size: 100% 100%;
+    }
+}
+
+/* navigation bar */
+
+
+.navigation{
+    position: sticky;
+    top: 0px;
+}
+ nav{
+    text-align: right;
+    border: 1px solid black;
+    height: 40px;
+    background-color: rgb(22, 68, 7);
+}
+
+/* nav ul{
+    display: inline-block;
+    list-style: none;
+    
+}
+nav ul li{
+    width: 120px;
+    background-color: rgb(22, 68, 7);
+    float: left ;
+    border-right: 1px solid gray;
+    text-transform: uppercase;
+    font-weight: 400;
+    transition: all 0.2s linear;
+}
+nav ul li:hover{
+    background-color: rgb(244, 139, 233);
+    height: 40px;
+} */
+
+
+
+nav {
+    display: flex;
+    justify-content: end;
+    background-color: rgb(22, 68, 7);
+    text-transform: uppercase;
+    font-weight: 800;
+    transition: all 0.2s linear;
+   
+}
+nav:hover{
+    background-color: rgb(107, 127, 210);
+    height: 40px;
+}
+nav a{
+    padding-left: 20px;
+}
+
+
+a:hover{
+    color: rgb(96, 10, 76);
+    font-size: large;
+    
+}
+a{
+    color: rgb(255, 255, 255);
+    font-style: bold;
+    font-style: italic;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    
+}
+
+
+
+@media only screen and (min-width:800px) {
+    nav a{
+      padding-left: 70px;
+    }  
+  }
+  
+
+
+/* my name */
+.title{
+    padding: 10px;
+    font-size:65px;
+    color: rgb(231, 215, 215);
+    font-family:Lato,Helvetica,Arial,sans-serif;
+    margin-left: 15%;
+    padding-top:70px;
+    text-shadow: 2px 2px 5px rgb(35, 218, 32);
+}
+.top{
+    padding-top: 150px;
+    
+}
+/* web del */
+.job{
+    font-size: 25px;
+    font-style: italic;
+    font-family:Lato,Helvetica,Arial,sans-serif;
+    text-align: center;
+    color: rgb(233, 227, 227);
+    padding: 20px;
+    padding-top: 50px;
+    padding-bottom: 5px;
+    margin-bottom: 60px;
+    text-shadow: 2px 2px 20px rgb(209, 22, 175);
+}
+/* fb,twitter,in */
+.img1{
+    width: 40px;
+    height: 40px;
+    padding: 10px; 
+    margin-bottom: 100px;
+}
+.img1:hover{
+    background-color: rgb(42, 224, 45);
+    border-radius: 15px;
+    transform: translate(0%, -15%);
+}
+
+
+.image{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+/* myself */
+.about{
+    background-color: rgb(144, 223, 138);
+    padding: 30px;
+    margin: 30px;
+    border-radius: 20px;
+    font-family:Lato,Helvetica,Arial,sans-serif;
+}
+/* heading */
+h1:hover{
+    background-color: rgb(235, 96, 94); 
+    border-radius: 20px;
+    padding: 5px;
+    color: rgb(17, 17, 18); 
+    font-size: 40px;
+   
+
+}
+/* mypic */
+.img2{
+    width: 250px;
+    padding: 2%;
+    border-radius: 50px;
+}
+.my{
+    display: flex;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+   
+}
+/* about me */
+.myself{
+    padding: 4%;
+    font-size: 18px;
+    padding-top: 50px;
+    word-spacing: 7px;
+    letter-spacing: 1.5px;
+    line-height: 1.5;
+}
+
+@media  only screen and (max-width:800px) {
+    .my{
+        display: block;
+    }
+    .img2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 60%;
+        width: 50%;
+        padding: 2%;
+        margin-left: 20%;
+    }
+}
+
+@media  only screen and (min-width:800px){
+    .about{
+        margin-left: 180px;
+        margin-right: 180px;
+    }
+}
+
+
+
+
+
+/* 2nd page */
+.edu{
+    background-color: rgb(144, 223, 138);
+    padding: 30px;
+    margin: 30px;
+    border-radius: 20px;
+    font-family:Lato,Helvetica,Arial,sans-serif;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+    margin-bottom: 5px;
+}
+.present{
+    width: 40%;
+    float:left ; 
+    
+}
+.hss{
+    width: 40%;
+    float:left ;
+    
+}
+.present:hover{
+    background-color:rgb(125, 143, 244) ;
+    font-size: 18px;
+    margin-bottom: 10px;
+
+    border-radius: 10px;
+}
+.collage:hover{
+    background-color:rgb(125, 143, 244) ;
+    font-size: 18px;
+    margin-bottom: 10px;
+    
+    border-radius: 10px;
+}
+.hss:hover{
+    background-color:rgb(125, 143, 244) ;
+    font-size: 18px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.sslc:hover{
+    background-color:rgb(125, 143, 244) ;
+    font-size: 18px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+@media only screen and (max-width:1000px){
+    .present{
+        width: auto;
+        float: none;
+    }
+    .hss{
+        width: auto;
+        float: none;
+    }
+}
+
+@media  only screen and (min-width:800px){
+    .edu{
+        margin-left: 180px;
+        margin-right: 180px;
+    }
+}
+ 
+/* 3rd page */
+.skills{
+    background-color: rgb(144, 223, 138);
+    padding: 30px;
+    margin: 30px;
+    border-radius: 20px;
+    font-family:Lato,Helvetica,Arial,sans-serif;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+}
+.skill{
+    padding-top: 20px;
+}
+.skillname{
+    padding: 5px;
+    font-weight: bolder;
+}
+.skillbar{
+    width: 100%;
+    height: 10px;
+    margin-top: 10px;
+    background-color: rgb(70, 70, 76);
+    border-radius: 20px;
+    box-shadow: 3px 3px .8px rgb(81, 53, 238);
+}
+.skillper1{
+    width: 75%;
+    height: 10px;
+    background-color: rgb(240, 30, 188);
+    border-radius: 20px;
+}
+.skillper2{
+    width: 75%;
+    height: 10px;
+    background-color: rgb(240, 30, 188);
+    border-radius: 20px;
+}
+.skillper3{
+    width: 30%;
+    height: 10px;
+    background-color: rgb(240, 30, 188);
+    border-radius: 20px;
+}
+.skillper4{
+    width: 30%;
+    height: 10px;
+    background-color: rgb(240, 30, 188);
+    border-radius: 20px;
+}
+.skillper5{
+    width: 65%;
+    height: 10px;
+    background-color: rgb(240, 30, 188);
+    border-radius: 20px;
+}
+
+.skillper1::before{
+    font-size: 13px;
+    font-weight: bold;
+    content: attr(per);
+    padding: 2px 6px;
+    background-color: rgb(191, 221, 69);
+    border-radius: 8px;
+    margin-left: 96%;
+    margin-top:2%;
+}
+
+.skillper2::before{
+    font-size: 13px;
+    font-weight: bold;
+    content: attr(per);
+    padding: 2px 6px;
+    background-color: rgb(191, 221, 69);
+    border-radius: 8px;
+    margin-left: 96%;
+    margin-top: 2%;
+}
+
+.skillper3::before{
+    font-size: 13px;
+    font-weight: bold;
+    content: attr(per);
+    padding: 2px 6px;
+    background-color: rgb(191, 221, 69);
+    border-radius: 8px;
+    margin-left: 96%;
+    margin-top: 2%;
+}
+
+.skillper4::before{
+    font-size: 13px;
+    font-weight: bold;
+    content: attr(per);
+    padding: 2px 6px;
+    background-color: rgb(191, 221, 69);
+    border-radius: 8px;
+    margin-left: 96%;
+    margin-top: 2%;
+}
+
+.skillper5::before{
+    font-size: 13px;
+    font-weight: bold;
+    content: attr(per);
+    padding: 2px 6px;
+    background-color: rgb(191, 221, 69);
+    border-radius: 8px;
+    margin-left: 96%;
+    margin-top: 2%;
+    
+}
+
+
+
+ .skill:hover{
+    font-size: large;
+    color: rgb(6, 3, 31);
+ }
+ .skillper1:hover{
+    background-color: rgb(9, 70, 2);
+ }
+ .skillper2:hover{
+    background-color: rgb(9, 70, 2); }
+ .skillper3:hover{
+    background-color: rgb(9, 70, 2);
+ }
+ .skillper4:hover{
+    background-color: rgb(9, 70, 2);
+ }
+ .skillper5:hover{
+    background-color: rgb(9, 70, 2); }
+
+
+ @media  only screen and (min-width:800px){
+    .skills{
+        margin-left: 180px;
+        margin-right: 180px;  
+     }
+}
+
+/* 4th page */
+.contact{
+    background-color: rgb(144, 223, 138);
+    padding: 30px;
+    margin: 30px;
+    border-radius: 20px;
+    font-family:Lato,Helvetica,Arial,sans-serif;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+}
+input{
+    width: 80%;
+    height: 25px;
+    padding: 10px;
+    margin: 2%;
+    margin-left: 10%;
+    border-radius: 10px;
+}
+textarea{
+    width: 80%;
+    padding: 10px;
+    margin: 2%;
+    margin-left: 10%;
+    border-radius: 10px;
+}
+button{
+    width: 30%;
+    padding: 10px;
+    margin-left: 10%;
+    background-color: rgb(6, 104, 6);
+    color: white;
+    letter-spacing: 2px;
+    font-size: 16px;
+    border-radius: 50px;
+}
+
+input:hover{
+    background-color: rgb(248, 182, 182);
+    color: rgb(25, 24, 22);
+    
+}
+textarea:hover{
+    background-color: rgb(248, 182, 182);
+    color: rgb(25, 24, 22);
+    
+}
+
+button:hover{
+    background-color: rgb(41, 204, 218);
+    color: rgb(15, 15, 15);
+    font-size: large;
+}
+
+
+@media  only screen and (min-width:800px){
+    .contact{
+        margin-left: 180px;
+        margin-right: 180px;  
+     }
+}
+@media  only screen and (min-width:1000px){
+     input{
+         width: 45%;
+         padding: 10px;
+         margin: 10px;
+         margin-left: 20%;
+     }
+     textarea{
+        width: 45%;
+         padding: 10px;
+         margin: 10px;
+         margin-left: 20%;
+     }
+     button{
+        width: 20%;
+         padding: 10px;
+         margin: 10px;
+         margin-left: 20%;
+     }
+}
